@@ -1,10 +1,17 @@
 # Lexmatcher-MT
 
+We present LexMatcher, a simple yet effective method for data curation, the design of which is driven by the coverage of senses found in bilingual dictionaries. 
+The construction process comprises data retrieval from an existing corpus and data augmentation that supplements the infrequent senses of polysemous words. 
+Utilizing various LLMs as the backbones, our method outperforms the established baselines on the WMT2022 test sets and also exhibits remarkable performance in tasks related to word sense disambiguation and specialized terminology translation. 
+
+
 ### Collected Translation Data for Supervised Fine-tuning(SFT)
 
 Languages: Chinese-English, German-English, Russian-English
 
 https://huggingface.co/datasets/Lemoooon/Lexmt_SFT/tree/main
+
+The dictionaries used for data collection are placed in the ''bidicts''.
 
 
 ### SFT code

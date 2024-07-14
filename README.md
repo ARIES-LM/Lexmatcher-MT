@@ -38,7 +38,7 @@ https://github.com/lemon0830/TIM
 <td align="center"><a href="https://huggingface.co/Lemoooon/LexMatcher_2B">download</a></td>
 <tr><td align="left">LexMatcher-7B</a></td>
 <td align="center">LLaMA2-7B</td>
-<td align="center">todo</td>
+<td align="center"><a href="https://huggingface.co/yongjing/LexMatcher_7B">download</td>
 <tr><td align="left">LexMatcher-8B</a></td>
 <td align="center">LLaMA3-8B</td>
 <td align="center"><a href="https://huggingface.co/Lemoooon/LexMatcher_8B">download</td>

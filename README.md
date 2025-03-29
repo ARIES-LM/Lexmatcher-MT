@@ -5,9 +5,8 @@
 </p>
 
 
-We present LexMatcher, a simple yet effective method for data curation, the design of which is driven by the coverage of senses found in bilingual dictionaries. 
-The construction process comprises data retrieval from an existing corpus and data augmentation that supplements the infrequent senses of polysemous words. 
-Utilizing various LLMs as the backbones, our method outperforms the established baselines on the WMT2022 test sets and also exhibits remarkable performance in tasks related to word sense disambiguation and specialized terminology translation. 
+We present \textbf{LEMMA}, derived from further optimizing the \uline{\textbf{Le}}x\uline{\textbf{M}}atcher model on preference data constructed by \uline{\textbf{Ma}}xDiff, 
+surpass the previous state-of-the-art model ALMA-R, which relies on GPT-4 to provide additional translations, while our method is purely based on sampling from our own models;
 
 
 ### Collected Translation Data for Supervised Fine-tuning(SFT)
@@ -16,13 +15,15 @@ Languages: Chinese-English, German-English, Russian-English
 
 https://huggingface.co/datasets/Lemoooon/Lexmt_SFT/tree/main
 
+
 The dictionaries used for data collection are placed in the ''bidicts''.
-
-
 ### SFT code
 
 https://github.com/lemon0830/TIM
 
+### MaxDiff code
+
+https://github.com/ARIES-LM/Lexmatcher-MT/tree/LEMMA/MaxDiff
 
 ### Fine-tuning Models
 
@@ -45,6 +46,14 @@ https://github.com/lemon0830/TIM
 <tr><td align="left">LexMatcher-13B</a></td>
 <td align="center">LLaMA2-13B</td>
 <td align="center"><a href="https://huggingface.co/Lemoooon/LexMatcher_13B">download</a></td>
+<td align="center">LLaMA3-8B</td>
+<td align="center"><a href="https://huggingface.co/Lemoooon/LexMatcher_8B">download</td>
+<tr><td align="left">LEMMA-7B</a></td>
+<td align="center">LexMatcher-7B</td>
+<td align="center"><a href="https://huggingface.co/ZixuanANDJiaBao/LEMMA-7B">download</a></td>
+<tr><td align="left">LEMMA-13B</a></td>
+<td align="center">LexMatcher-13B</td>
+<td align="center"><a href="https://huggingface.co/ZixuanANDJiaBao/LEMMA-13B">download</a></td>
 </tbody></table>
 
 

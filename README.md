@@ -1,7 +1,7 @@
 # Lexmatcher-MT
 
 <p align='center'>
-<img src='lexm0616-1.png' style='width: 50%; '>
+<img src='pipeline.jpg' style='width: 50%; '>
 </p>
 
 

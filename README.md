@@ -5,7 +5,7 @@
 </p>
 
 
-We present \textbf{LEMMA}, derived from further optimizing the \uline{\textbf{Le}}x\uline{\textbf{M}}atcher model on preference data constructed by \uline{\textbf{Ma}}xDiff, 
+We present LEMMA, derived from further optimizing the Latcher model on preference data constructed by MaxDiff, 
 surpass the previous state-of-the-art model ALMA-R, which relies on GPT-4 to provide additional translations, while our method is purely based on sampling from our own models;
 
 
